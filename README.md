@@ -51,7 +51,7 @@ This project emphasizes clean and maintainable code by adhering to the following
 
 ## Demo  
 
-🎥 **[Watch Demo Video Here](https://drive.google.com/file/d/1HM8Ey05vmTT4qDcWbxkq-qMnfJPvujA9/view?usp=sharing)**  
+🎥![Application Video](https://drive.google.com/file/d/1HM8Ey05vmTT4qDcWbxkq-qMnfJPvujA9/view?usp=sharing) 
 
 ---
 
