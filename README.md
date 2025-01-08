@@ -3,9 +3,6 @@
 A desktop application for visualizing and mixing Fourier Transform components of images, demonstrating the importance of magnitude and phase in signal processing.  
 
 
-  
-
----
 
 ## Features  
 
@@ -33,7 +30,7 @@ A desktop application for visualizing and mixing Fourier Transform components of
 - **Consistent Region Selection**: Unified across all loaded images.  
 - **Adjustable Regions**: Resize selection areas using sliders or handles.  
 
----
+
 
 ## Coding Practices  
 
@@ -47,7 +44,7 @@ This project emphasizes clean and maintainable code by adhering to the following
   - Example: Tracked Fourier Transform calculation steps to debug incorrect component outputs.  
 - **Usage**: Log files are stored in a `logs` file and record user interactions, system errors, and application flow for future analysis.  
 
----
+
 
 
 ## Installation  
