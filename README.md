@@ -2,7 +2,7 @@
 
 A desktop application for visualizing and mixing Fourier Transform components of images, demonstrating the importance of magnitude and phase in signal processing.  
 
-![Application Screenshot](https://drive.google.com/uc?export=view&id=17rj3RjNTjVcck0GLYtjA9PpQPFLU_Zc-)
+
   
 
 ---
@@ -48,9 +48,6 @@ This project emphasizes clean and maintainable code by adhering to the following
 - **Usage**: Log files are stored in a `logs` file and record user interactions, system errors, and application flow for future analysis.  
 
 ---
-## Demo  
-
-🎥 [Watch the video here](https://drive.google.com/file/d/1HM8Ey05vmTT4qDcWbxkq-qMnfJPvujA9/view?usp=drive_link)
 
 
 ## Installation  
@@ -70,7 +67,7 @@ https://github.com/MuhamedSalah10/image-mixer.git
 - If you are still having problems, please post a question on the project's GitHub page.
 
 
-
+---
 
 # Second Part: Beamforming Simulator
 
