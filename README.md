@@ -1,4 +1,4 @@
-# Fourier Transform Image Mixer  
+# Part A: Fourier Transform Image Mixer  
 
 A desktop application for visualizing and mixing Fourier Transform components of images, demonstrating the importance of magnitude and phase in signal processing.  
 
