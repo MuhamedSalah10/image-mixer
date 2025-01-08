@@ -40,20 +40,12 @@ A desktop application for visualizing and mixing Fourier Transform components of
 This project emphasizes clean and maintainable code by adhering to the following practices:  
 
 ### Object-Oriented Programming (OOP)  
-- **Encapsulation**:  
-  - All image processing and Fourier Transform operations are encapsulated within an `Image` class.  
-  - The `PhasedArray` class handles Fourier Transform component manipulation.  
-  - No mathematical manipulation or direct interaction with image/phased array data occurs outside their respective classes.  
-- **Minimal Main Function**:  
-  - The main function is clean and acts as a controller to initialize classes and manage the application flow.  
-  - Most logic and data handling occur within the encapsulated classes.  
-
 ### Logging  
 - **Purpose**: Logging is implemented using Python's `logging` library to track key interactions and steps in the application.  
 - **Debugging Assistance**: Logs provide insight into how problems occurred and helped resolve issues during development.  
   - Example: Logged image loading errors to identify unsupported formats.  
   - Example: Tracked Fourier Transform calculation steps to debug incorrect component outputs.  
-- **Usage**: Log files are stored in a `logs` directory and record user interactions, system errors, and application flow for future analysis.  
+- **Usage**: Log files are stored in a `logs` file and record user interactions, system errors, and application flow for future analysis.  
 
 ---
 
@@ -70,8 +62,12 @@ To install and run the application, follow these steps:
 ```bash  
 # Clone the repository
 git clone https://github.com/yourusername/ft-mixer  
-cd ft-mixer  
+cd ft-mixer
 
-# Additional setup steps (e.g., install dependencies)
-# Example:
-pip install -r requirements.txt  
+## Troubleshooting:
+**if you are having problems with the application, please consult the following troubleshooting tips:**
+
+- Make sure that you have installed the required Python packages, such as NumPy, Pandas, and Qt.
+- Make sure that you are using a supported signal format.
+- Try restarting the application.
+- If you are still having problems, please post a question on the project's GitHub page.
