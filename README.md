@@ -1,8 +1,9 @@
-# Fourier Transform Magnitude/Phase Mixer  
+# Fourier Transform Image Mixer  
 
 A desktop application for visualizing and mixing Fourier Transform components of images, demonstrating the importance of magnitude and phase in signal processing.  
 
-![Application Screenshot]((https://drive.google.com/file/d/17rj3RjNTjVcck0GLYtjA9PpQPFLU_Zc-/view?usp=sharing))  
+![Application Screenshot](https://drive.google.com/uc?export=view&id=17rj3RjNTjVcck0GLYtjA9PpQPFLU_Zc-)
+  
 
 ---
 
