@@ -5,7 +5,7 @@ import numpy as np
 import PyQt5
 import logging
 
-logging.basicConfig(filemode="a", filename="our_log.log",
+logging.basicConfig(filemode="a", filename="logs.log",
                     format="(%(asctime)s) | %(name)s| %(levelname)s | => %(message)s", level=logging.INFO)
 class CompWidget(QWidget ):
     all_widgets = []

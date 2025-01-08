@@ -24105,3 +24105,11 @@
 (2025-01-08 07:40:55,159) | root| INFO | => here in the widget number : 3
 (2025-01-08 07:40:55,166) | root| INFO | => The Selected Mode is InsideRegion and selected widget is output_widget_1
 (2025-01-08 07:40:55,204) | root| INFO | => Calculated FFT inverse Correctly and update the output widget
+(2025-01-08 07:50:52,217) | root| INFO | => The Selected Mode is InsideRegion and selected widget is output_widget_1
+(2025-01-08 07:50:52,274) | root| INFO | => Calculated FFT inverse Correctly and update the output widget
+(2025-01-08 07:50:52,277) | root| INFO | => The Selected Mode is InsideRegion and selected widget is output_widget_1
+(2025-01-08 07:50:52,311) | root| INFO | => Calculated FFT inverse Correctly and update the output widget
+(2025-01-08 07:50:52,325) | root| INFO | => The Selected Mode is InsideRegion and selected widget is output_widget_1
+(2025-01-08 07:50:52,357) | root| INFO | => Calculated FFT inverse Correctly and update the output widget
+(2025-01-08 07:50:52,444) | root| INFO | => The Selected Mode is InsideRegion and selected widget is output_widget_1
+(2025-01-08 07:50:52,478) | root| INFO | => Calculated FFT inverse Correctly and update the output widget

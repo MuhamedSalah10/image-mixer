@@ -9,7 +9,7 @@ from scipy.fft import fft2, fftshift
 from FTViewPort import CompWidget
 
 import logging
-logging.basicConfig(filemode="a", filename="our_log.log",
+logging.basicConfig(filemode="a", filename="logs.log",
                     format="(%(asctime)s) | %(name)s| %(levelname)s | => %(message)s", level=logging.INFO)
 
 

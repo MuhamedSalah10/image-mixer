@@ -7,7 +7,7 @@ import numpy as np
 from scipy.fft import fft2, fftshift
 import logging
 import copy
-logging.basicConfig(filemode="a", filename="our_log.log",
+logging.basicConfig(filemode="a", filename="logs.log",
                     format="(%(asctime)s) | %(name)s| %(levelname)s | => %(message)s", level=logging.INFO)
 
 class ImageWidget(QWidget):

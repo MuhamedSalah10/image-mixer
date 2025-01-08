@@ -15,12 +15,12 @@ from PyQt5.QtWidgets import QMainWindow, QTabWidget
 
 
 # Configure logging to capture all log levels
-logging.basicConfig(filemode="a", filename="our_log.log",
+logging.basicConfig(filemode="a", filename="logs.log",
                     format="(%(asctime)s) | %(name)s| %(levelname)s | => %(message)s", level=logging.INFO)
 
 
 # Load the UI file
-Ui_MainWindow, QtBaseClass = uic.loadUiType("OLD.ui")
+Ui_MainWindow, QtBaseClass = uic.loadUiType("Main_window_partA.ui")
 
 # Main Window
 class MainWindow(QMainWindow , Ui_MainWindow ):
