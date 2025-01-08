@@ -2,7 +2,7 @@
 
 A desktop application for visualizing and mixing Fourier Transform components of images, demonstrating the importance of magnitude and phase in signal processing.  
 
-
+https://github.com/user-attachments/assets/d2f7e094-f729-4fa4-904e-7ab6e8117a55
 
 ## Features  
 
