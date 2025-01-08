@@ -59,7 +59,7 @@ To install and run the application, follow these steps:
 
 ```bash  
 # Clone the repository
-git clone https://github.com/yourusername/ft-mixer  
+https://github.com/MuhamedSalah10/image-mixer.git
 cd ft-mixer
 ```
 ## Troubleshooting:
