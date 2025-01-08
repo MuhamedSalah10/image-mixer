@@ -50,7 +50,7 @@ This project emphasizes clean and maintainable code by adhering to the following
 ---
 ## Demo  
 
-🎥 https://github.com/MuhamedSalah10/image-mixer/issues/1#issue-2774417969
+🎥 [Watch the video here](https://drive.google.com/file/d/1HM8Ey05vmTT4qDcWbxkq-qMnfJPvujA9/view?usp=drive_link)
 
 
 ## Installation  
