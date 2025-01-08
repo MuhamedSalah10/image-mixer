@@ -60,7 +60,6 @@ To install and run the application, follow these steps:
 ```bash  
 # Clone the repository
 https://github.com/MuhamedSalah10/image-mixer.git
-cd ft-mixer
 ```
 ## Troubleshooting:
 **if you are having problems with the application, please consult the following troubleshooting tips:**
