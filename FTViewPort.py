@@ -63,7 +63,7 @@ class CompWidget(QWidget ):
     def mousePressEvent(self, event):
         # Start the rectangle drawing at mouse click position
         self.__rect_start = event.pos()
-        self.__rect_end = self.rect_start  # Set end point to the start initially
+        self.__rect_end = self.__rect_start  # Set end point to the start initially
 
 
     def mouseMoveEvent(self, event):  
@@ -71,8 +71,7 @@ class CompWidget(QWidget ):
         if self.__rect_start:
             self.__rect_end = event.pos()
             CompWidget.draw_rectangle_on_all_widgets(self.__rect_start ,self.__rect_end )
-            
-            # self.function_tst()
+
         
 
     def mouseReleaseEvent(self, event):

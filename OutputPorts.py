@@ -18,13 +18,13 @@ class Output_Widget(QWidget):
         super(Output_Widget, self).__init__(parent)
         # mag&phase   or real&Img
         self.Component_Mode=None
-        self.fft_combined=None
-        self.pixmap=None
+        self.fft_combined=None 
+        self.__pixmap=None
         self.shape=(371, 311)
 
         # automatically run to paint the img
     def paintEvent(self, event):
-        if self.__pixmap:
+        if self.__pixmap is not None:
             painter = QPainter(self)
             # make img border raduis 
             rect = QRectF(self.rect())
@@ -59,13 +59,13 @@ class Output_Widget(QWidget):
                 reconstructed_img_normalized = (255 * (reconstructed_img - np.min(reconstructed_img)) / range_).astype(np.uint8)
 
             reconstructed_img_normalized = np.clip(reconstructed_img_normalized, 0, 255).astype(np.uint8)       
-            self.pixmap = self.convert_np_pixmap(reconstructed_img_normalized)
+            self.__pixmap = self.convert_np_pixmap(reconstructed_img_normalized)
             logging.info("Calculated FFT inverse Correctly and update the output widget")
             self.update()
 
 
 
-    def Calculate_Cropped_Data(self , current_Mode):
+    def Combine_Cropped_Data(self , current_Mode):
         created_Components=CompWidget.Get_All_created_widgets()
         if len(created_Components)>=0:
         
@@ -84,17 +84,20 @@ class Output_Widget(QWidget):
 
             else:    
                     
-                self.fft_combined = np.zeros(self.shape, dtype=np.complex128)
+                self.fft_combined = np.zeros(self.shape, dtype=np.float64)
                 all_Real = np.zeros(self.shape, dtype=np.float64)
-                all_Imag = np.zeros(self.shape, dtype=np.complex128)      
+                all_Imag = np.zeros(self.shape, dtype=np.float64)      
 
                 for comp in created_Components:
                     if comp.get_Curr_Mode()=='FT Real':
                         all_Real += (comp.get_slider_value()/100) *comp.get_crop_data_widget()
                     if comp.get_Curr_Mode()=='FT Imaginary':
                         all_Imag += (comp.get_slider_value()/100) *comp.get_crop_data_widget()
+                
+                magnitude = np.sqrt(all_Real**2 + all_Imag**2)  # Magnitude
+                phase = np.arctan2(all_Imag, all_Real) 
+                self.fft_combined=  magnitude * np.exp(1j * phase)
 
-                self.fft_combined= all_Magnitudes * np.exp(1j * np.angle(all_phases))
             
             self.inverse_fourier()
 

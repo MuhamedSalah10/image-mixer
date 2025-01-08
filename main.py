@@ -13,7 +13,7 @@ from OutputPorts import Output_Widget
 from PyQt5.QtWidgets import QMainWindow, QTabWidget
 
 
-from second_window_finalll import *
+
 # Configure logging to capture all log levels
 logging.basicConfig(filemode="a", filename="our_log.log",
                     format="(%(asctime)s) | %(name)s| %(levelname)s | => %(message)s", level=logging.INFO)
@@ -141,7 +141,7 @@ class MainWindow(QMainWindow , Ui_MainWindow ):
      
         
     #    set the new cropped_data to the output widget
-        output.Calculate_Cropped_Data(Mode)
+        output.Combine_Cropped_Data(Mode)
 
 
 
@@ -168,13 +168,6 @@ class MainWindow(QMainWindow , Ui_MainWindow ):
         self.display_output()
 
 
-
-
-    # def show_Second_Window(self):
-    #         self.second_window = SecondWindow()
-    #         self.second_window.show() 
-    #         self.close()
-            
 
 if __name__ == "__main__":
     logging.info(
