@@ -50,7 +50,7 @@ This project emphasizes clean and maintainable code by adhering to the following
 ---
 ## Demo  
 
-🎥 <iframe src="https://drive.google.com/file/d/1HM8Ey05vmTT4qDcWbxkq-qMnfJPvujA9/preview" width="640" height="480" allow="autoplay"></iframe>
+🎥 [![FT Magnitude/Phase Mixer Demo](assets/video-thumbnail.png)](https://drive.google.com/file/d/1HM8Ey05vmTT4qDcWbxkq-qMnfJPvujA9/view)
 
 
 ## Installation  
